@@ -38,26 +38,21 @@ nomenclature, and chemical problem solving will be emphasized with the goal of p
 further study in chemistry as needed for many sciences, health, and policy professions.')
 GO
 
-INSERT INTO GROUPS (NAME)
+INSERT INTO GROUPS (NAME, COURSE_ID)
 VALUES
-('IT-01'),
-('SR-01'),
-('LO-01'),
-('HI-01')
-GO
+('IT-01', 1),
+('IT-01', 2),
 
-INSERT INTO GROUPS_COURSES (GROUP_ID, COURSE_ID)
-VALUES
-(1, 1),
-(1, 2),
-(2, 2),
-(2, 3),
-(2, 4),
-(3, 4),
-(4, 1),
-(4, 2),
-(4, 3),
-(4, 4)
+('SR-01', 2),
+('SR-01', 3),
+('SR-01', 5),
+
+('LO-01', 4),
+
+('HI-01', 1),
+('HI-01', 2),
+('HI-01', 3),
+('HI-01', 4)
 GO
 
 INSERT INTO STUDENTS (GROUP_ID, FIRST_NAME, LAST_NAME)
@@ -65,27 +60,67 @@ VALUES
 (1, 'Terri', 'Duffy'),
 (1, 'Roberto', 'Tamburello'),
 (1, 'Jossef', 'DufGoldbergfy'),
-(2, 'Janice', 'Galvin'),
-(2, 'Michael', 'Sullivan'),
-(2, 'John', 'Wood'),
-(3, 'Annik', 'Mohan'),
-(3, 'Ed', 'Okelberry'),
-(4, 'Frank', 'Miller'),
-(4, 'Diane', 'Tibbott'),
-(4, 'Karan', 'Khanna'),
-(4, 'David', 'Selikoff'),
-(4, 'Patrick', 'Martinez')
-GO
+(2, 'Terri', 'Duffy'),
+(2, 'Roberto', 'Tamburello'),
+(2, 'Jossef', 'DufGoldbergfy'),
 
+(3, 'Janice', 'Galvin'),
+(3, 'Michael', 'Sullivan'),
+(3, 'John', 'Wood'),
+(4, 'Janice', 'Galvin'),
+(4, 'Michael', 'Sullivan'),
+(4, 'John', 'Wood'),
+(5, 'Janice', 'Galvin'),
+(5, 'Michael', 'Sullivan'),
+(5, 'John', 'Wood'),
 
-SELECT *
-FROM COURSES
+(6, 'Annik', 'Mohan'),
+(6, 'Ed', 'Okelberry'),
 
-SELECT *
-FROM GROUPS
+(7, 'Frank', 'Miller'),
+(7, 'Diane', 'Tibbott'),
+(7, 'Karan', 'Khanna'),
+(7, 'David', 'Selikoff'),
+(7, 'Patrick', 'Martinez'),
+(7, 'David', 'Campbell'),
+(7, 'Joseph', 'Cantoni'),
+(7, 'Jane', 'Carmichael'),
+(7, 'Pamela', 'Farrell'),
+(7, 'Geri', 'Markwood'),
+(7, 'Jeffrey', 'Reeves'),
 
-SELECT *
-FROM STUDENTS
+(8, 'Frank', 'Miller'),
+(8, 'Diane', 'Tibbott'),
+(8, 'Karan', 'Khanna'),
+(8, 'David', 'Selikoff'),
+(8, 'Patrick', 'Martinez'),
+(8, 'David', 'Campbell'),
+(8, 'Joseph', 'Cantoni'),
+(8, 'Jane', 'Carmichael'),
+(8, 'Pamela', 'Farrell'),
+(8, 'Geri', 'Markwood'),
+(8, 'Jeffrey', 'Reeves'),
 
-SELECT *
-FROM GROUPS_COURSES
+(9, 'Frank', 'Miller'),
+(9, 'Diane', 'Tibbott'),
+(9, 'Karan', 'Khanna'),
+(9, 'David', 'Selikoff'),
+(9, 'Patrick', 'Martinez'),
+(9, 'David', 'Campbell'),
+(9, 'Joseph', 'Cantoni'),
+(9, 'Jane', 'Carmichael'),
+(9, 'Pamela', 'Farrell'),
+(9, 'Geri', 'Markwood'),
+(9, 'Jeffrey', 'Reeves'),
+
+(10, 'Frank', 'Miller'),
+(10, 'Diane', 'Tibbott'),
+(10, 'Karan', 'Khanna'),
+(10, 'David', 'Selikoff'),
+(10, 'Patrick', 'Martinez'),
+(10, 'David', 'Campbell'),
+(10, 'Joseph', 'Cantoni'),
+(10, 'Jane', 'Carmichael'),
+(10, 'Pamela', 'Farrell'),
+(10, 'Geri', 'Markwood'),
+(10, 'Jeffrey', 'Reeves')
