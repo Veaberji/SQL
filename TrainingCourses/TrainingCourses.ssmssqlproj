@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TrainingCourses">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="VJ:VJ\Veaberji">
+          <Created>2021-06-17T10:19:50.3261584+03:00</Created>
+          <Type>SQL</Type>
+          <Server>VJ</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>AdventureWorks2019</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="1_create_database_and_tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VJ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VJ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1_create_database_and_tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_insert_into_tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VJ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VJ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2_insert_into_tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_select_groups_with_less_than_10_students.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VJ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VJ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3_select_groups_with_less_than_10_students.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_select_course_and_related_students.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VJ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VJ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4_select_course_and_related_students.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5_delete_all_students_SR-01_group.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VJ:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VJ</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5_delete_all_students_SR-01_group.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
